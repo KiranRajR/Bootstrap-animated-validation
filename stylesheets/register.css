@@ -1,0 +1,121 @@
+body,
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../fontello-1347da2e/font/fontello.eot?66376370');
+    src: url('../fontello-1347da2e/font/fontello.eot?66376370#iefix') format('embedded-opentype'),
+        url('../fontello-1347da2e/font/fontello.woff?66376370') format('woff'),
+        url('../fontello-1347da2e/font/fontello.ttf?66376370') format('truetype'),
+        url('../fontello-1347da2e/font/fontello.svg?66376370#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.demo-icon{
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+
+    /* You can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.pageRegister {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    float: left;
+    min-height: 100%;
+    width: 100%;
+}
+
+.pageRegister #userRegister {
+    background: #01B968;
+    border-radius: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.pageRegister .alert-dismissible {
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.pageRegister #userRegister:hover {
+    background-color: #01B968;
+}
+
+.pageRegister .alert-dismissible .close {
+    opacity: 0.8;
+    right: 0px;
+}
+
+.pageRegister .form-horizontal .form-group {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.pageRegister form {
+    margin-top: 25px;
+}
+
+.pageRegister .input-group-addon {
+    background-color: #fff;
+    border-radius: 0px;
+}
+
+.pageRegister .input-group input {
+    border-left: transparent;
+    border-radius: 0px;
+    height: auto;
+}
+
+.pageRegister .form-group {
+    margin-bottom: 30px;
+}
+
+.pageRegister .help-block {
+    position: absolute;
+}
+
+.pageRegister .input-group-addon img {
+    max-height: 20px;
+}
